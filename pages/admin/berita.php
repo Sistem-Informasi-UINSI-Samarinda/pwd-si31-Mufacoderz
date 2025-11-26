@@ -22,7 +22,7 @@ if (!isset($_SESSION['user_id'])) {
     <div class="sidebar">
         <h2>Admin Panel</h2>
         <ul>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="dashboard.php">Dashboard</a></li>
             <li><a href="#">User</a></li>
             <li><a href="berita.php">Berita</a></li>
             <li><a href="#">Galeri</a></li>
@@ -32,26 +32,14 @@ if (!isset($_SESSION['user_id'])) {
 
     <div class="main-content">
         <header>
-            <h1>Selamat Datang, <?php echo $_SESSION['nama_lengkap']; ?>!</h1>
-            <p>Anda sedang berada di halaman dashboard utama.</p>
-            <!-- <button>☰ Menu</button> -->
+            <a href="kategori.php">List Kategori</a>
+            <a href="tambahberita.php">+ Tambah Berita</a>
         </header>
 
         <section class="cards">
-            <div class="card">
-                <h3>Total Pengguna</h3>
-                <p>120K</p>
-            </div>
-            <div class="card">
-                <h3>Total Berita</h3>
-                <p>45K</p>
-            </div>
-            <div class="card">
-                <h3>Total Galeri</h3>
-                <p>820</p>
-            </div>
 
         </section>
+
     </div>
 
     </body>

@@ -81,7 +81,7 @@
         if(filter_var($input, FILTER_VALIDATE_EMAIL)){
             $query = "SELECT * from users WHERE email = '$input'";
         } else{
-            $query = "SELECT * from users WHERE username = '$input'";
+            $query = "SELECT * from users WHERE username = '$ input'";
         }
 
         $result = mysqli_query($conn, $query);
