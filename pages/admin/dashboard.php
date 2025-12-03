@@ -40,15 +40,15 @@ if (!isset($_SESSION['user_id'])) {
         <section class="cards">
             <div class="card">
                 <h3>Total Pengguna</h3>
-                <p>120K</p>
+                <p>120</p>
             </div>
             <div class="card">
                 <h3>Total Berita</h3>
-                <p>45K</p>
+                <p>45</p>
             </div>
             <div class="card">
                 <h3>Total Galeri</h3>
-                <p>820</p>
+                <p>82</p>
             </div>
 
         </section>
